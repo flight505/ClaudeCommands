@@ -1,5 +1,5 @@
 ---
-model: claude-sonnet-4-0
+model: claude-sonnet-4-5-20250929
 ---
 
 # Data Pipeline Architecture

@@ -1,5 +1,5 @@
 ---
-model: claude-opus-4-1
+model: claude-opus-4-1-20250805
 ---
 
 Intelligently fix the issue using automatic agent selection with explicit Task tool invocations:
