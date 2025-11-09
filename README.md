@@ -574,6 +574,17 @@ specs/                 # Feature specifications and plans
 # Build knowledge base
 /context-save save important research and references
 ```
+## Expanding .claude: Sites for New Skills, Tools, and Workflows
+
+When extending `.claude` such as developing new skills, tools, or workflows, refer to the following sites for inspiration, ideas, or ready-made plugins. Claude Code can use these resources to identify commands, agents, or workflows relevant to your needs.
+
+- [Claude Code Commands](https://slashcommands.cc/) — Explore available slash commands for Claude Code
+- [Claude Code Commands Search](https://slashcommands.cc/?search= ...) — Search for specific Claude Code commands
+- [Claude Code Agents](https://subagents.cc/browse) — Discover agent templates and automations
+- [Claude Code Plugins Marketplace](https://claudecodemarketplace.com/) — Browse and recommend plugins for extended functionality
+
+These resources are especially helpful for evolving `.claude` configuration or when Claude Code is tasked with suggesting new capabilities.
+
 
 ## Additional Resources
 

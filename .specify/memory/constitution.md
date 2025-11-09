@@ -1,108 +1,63 @@
-# ML & Bioinformatics Development Constitution
+---
+description: Project constitution that defines the engineering principles followed by specify and planning workflows.
+argument-hint: ""
+---
 
-**Version**: 1.0.0 | **Ratified**: 2025-01-27 | **Last Amended**: 2025-01-27
+# Project Development Constitution
+
+**Version**: 1.1.0&nbsp;&nbsp;|&nbsp;&nbsp;**Ratified**: 2025-01-27&nbsp;&nbsp;|&nbsp;&nbsp;**Last Amended**: 2025-01-27
 
 ## Core Principles
 
-### I. Test-Driven Development (NON-NEGOTIABLE)
-TDD mandatory: Tests written → User approved → Tests fail → Then implement. Red-Green-Refactor cycle strictly enforced. For ML models, include performance benchmarks, accuracy metrics, and edge case validation. For bioinformatics, include data validation tests and format compatibility checks.
+### I. Test-Driven Development (Non-Negotiable)
+Work from failing tests toward working code. Apply the red → green → refactor cycle and keep the test suite fast, focused, and trustworthy.
 
-### II. Reproducibility First
-All experiments, models, and analyses must be reproducible:
-- Fixed random seeds for ML models
-- Versioned dependencies (requirements.txt, environment.yml)
-- Data lineage tracking
-- Clear documentation of preprocessing steps
-- Reproducible computational environments
+### II. Reproducible Delivery
+Make every outcome repeatable:
+- Version and lock dependencies
+- Capture environment and configuration details
+- Track important decisions and rationales
+- Provide clear instructions to rerun workflows end-to-end
 
-### III. Data Quality & Validation
-- Validate input data formats and quality before processing
-- Document data transformations and preprocessing steps
-- Handle missing data, outliers, and edge cases explicitly
-- Validate model outputs meet specified constraints
-- Log data quality metrics
+### III. Data & Contract Integrity
+- Validate inputs and outputs aggressively
+- Describe data transformations and side effects
+- Keep interfaces stable, versioned, and well documented
+- Log and trace for observability and audits
 
-### IV. Performance & Scalability
-- Document computational constraints (memory, time, scale)
-- Optimize critical paths (data loading, model inference)
-- Consider scalability from the start
-- Profile and measure before optimizing
-- Set realistic performance targets
+### IV. Performance & Scale Awareness
+- Define target service levels early (latency, throughput, capacity)
+- Profile before optimizing and measure after changes
+- Remove bottlenecks in priority order while protecting correctness
 
 ### V. Documentation & Clarity
-- Document why technical decisions were made
-- Include usage examples and quickstart guides
-- Explain complex algorithms and domain-specific concepts
-- Maintain clear API contracts and data schemas
-- Code should be self-documenting where possible
+- Record why a decision was made, not just what was done
+- Provide onboarding-quality guides for new contributors
+- Keep quickstart instructions up to date
 
-### VI. Simplicity & YAGNI
-Start simple, add complexity only when justified:
-- Prefer standard libraries over custom implementations
-- Use established patterns and frameworks
-- Justify complexity deviations in design documents
-- Refactor incrementally, not preemptively
+### VI. Simplicity & Incrementalism
+Favor the minimal solution that solves the problem:
+- Prefer proven patterns and libraries
+- Break work into reviewable increments
+- Justify any added complexity and document trade-offs
 
-## ML/Bioinformatics Specific Constraints
+## Specification → Plan → Delivery Workflow
+1. **Specify** – Capture intent, scenarios, requirements, and unknowns.
+2. **Plan** – Design architecture, contracts, and research agendas.
+3. **Test** – Generate failing tests that define desired behavior.
+4. **Implement** – Make tests pass with minimal code.
+5. **Refine** – Refactor for quality, maintainability, and readability.
+6. **Document** – Update guides, changelogs, and reference materials.
 
-### Data Handling
-- Use appropriate data formats (FASTA, HDF5, Parquet, BAM/VCF for bioinformatics)
-- Handle large datasets efficiently (streaming, chunking, lazy loading)
-- Validate data formats and schemas before processing
-- Document data provenance and lineage
-
-### Model Development
-- Define clear evaluation metrics (accuracy, precision, recall, AUC, etc.)
-- Include model versioning and checkpointing
-- Document hyperparameters and training configurations
-- Validate model outputs meet domain requirements
-- Handle edge cases and failure modes gracefully
-
-### Testing Requirements
-- Unit tests for data processing functions
-- Integration tests for pipelines
-- Performance benchmarks for critical paths
-- Validation tests for model outputs
-- Edge case tests for error handling
-
-### Integration & Compatibility
-- Define clear input/output formats and contracts
-- Support standard data formats for the domain
-- Document API contracts and interfaces
-- Version APIs and data schemas appropriately
-- Handle backward compatibility when needed
-
-## Development Workflow
-
-### Feature Development Process
-1. **Specify** - Create detailed feature specification with requirements
-2. **Plan** - Generate implementation plan with research, design, and contracts
-3. **Test** - Create failing tests following TDD approach
-4. **Implement** - Write minimal code to pass tests
-5. **Refactor** - Improve code quality while maintaining tests
-6. **Document** - Update documentation and examples
-
-### Code Review Standards
-- Tests must pass before review
-- Code must follow project conventions
-- Performance implications must be considered
-- Documentation must be updated
-- Complexity must be justified
-
-### Quality Gates
-- All tests pass (unit, integration, performance)
-- Code coverage meets minimum thresholds
-- Documentation is complete and accurate
-- Performance benchmarks meet targets
-- Data validation and error handling are comprehensive
+## Review & Quality Gates
+- All automated checks pass (tests, lint, coverage, security as applicable)
+- Reviewers confirm compliance with this constitution
+- Performance budgets and operational guidelines remain intact
+- Documentation reflects the delivered changes
 
 ## Governance
+- Amendments require a documented rationale and approval from maintainers.
+- Breaking changes must include a migration or rollback strategy.
+- Exceptions are temporary, tracked, and resolved quickly.
 
-This constitution supersedes all other development practices. Amendments require:
-- Documentation of the change and rationale
-- Approval from project maintainers
-- Migration plan if breaking changes
-
-All PRs, reviews, and implementations must verify compliance with this constitution. Complexity deviations must be documented and justified.
-
-**Guiding Philosophy**: Build reliable, reproducible, and maintainable software for ML and bioinformatics research. Quality and correctness over speed. Test everything. Document decisions. Start simple.
+**Guiding Philosophy**: Deliver reliable, maintainable software by making intentions explicit, validating with tests, and communicating clearly. Quality and clarity outlast velocity.

@@ -3,7 +3,7 @@ argument-hint: "<path to spec file>"
 
 # Feature Plan
 
-Generate a comprehensive implementation plan from a feature specification using the Specify framework. The outputs unblock delivery teams, `/tdd-cycle`, and downstream automation.
+Generate a comprehensive implementation plan from a feature specification using the Specify framework. The outputs unblock delivery teams, the tdd-cycle workflow, and downstream automation.
 
 ## Usage
 

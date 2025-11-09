@@ -3,7 +3,7 @@ argument-hint: "<feature description>"
 
 # Specify Feature
 
-Create a comprehensive, implementation-ready feature specification using the Specify framework. The output becomes the starting point for `/feature-plan`, TDD workflows, and delivery teams.
+Create a comprehensive, implementation-ready feature specification using the Specify framework. The output becomes the starting point for the feature-plan workflow, TDD workflows, and delivery teams.
 
 ## Usage
 
