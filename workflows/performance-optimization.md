@@ -1,6 +1,6 @@
----
+description: Analyze, prioritize, and optimize performance issues across services, data stores, and clients.
+argument-hint: "<system or component to optimize>"
 model: claude-opus-4-1-20250805
----
 
 Optimize application performance end-to-end using specialized performance and optimization agents:
 

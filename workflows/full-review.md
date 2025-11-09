@@ -1,6 +1,6 @@
----
+description: Run a multi-perspective project review and consolidate findings into clear follow-up actions.
+argument-hint: "<artifact or area to review>"
 model: claude-opus-4-1-20250805
----
 
 Perform a comprehensive review using multiple specialized agents with explicit Task tool invocations:
 

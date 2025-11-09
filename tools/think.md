@@ -1,5 +1,4 @@
----
-description: Structured multi-angle reasoning framework
+description: Run a structured multi-angle reasoning session that informs planning and decision workflows.
 argument-hint: "[topic or problem]"
 ---
 

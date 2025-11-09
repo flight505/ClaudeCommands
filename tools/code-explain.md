@@ -1,6 +1,6 @@
----
+description: Explain code structure and behavior with clear narratives that support reviews and onboarding.
+argument-hint: "<code or component to explain>"
 model: claude-sonnet-4-5-20250929
----
 
 # Code Explanation and Analysis
 

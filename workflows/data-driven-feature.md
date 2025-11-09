@@ -1,6 +1,6 @@
----
+description: Coordinate specialists to deliver a data-informed feature from discovery through deployment.
+argument-hint: "<feature goal>"
 model: claude-opus-4-1-20250805
----
 
 Build data-driven features with integrated pipelines and ML capabilities using specialized agents:
 

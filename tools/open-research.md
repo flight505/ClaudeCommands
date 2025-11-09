@@ -1,5 +1,4 @@
----
-description: Open the latest saved deep web research report (or a matching one by slug/topic)
+description: Retrieve research notes previously captured by /deep-web-research for quick reuse.
 argument-hint: "<optional: slug or topic>"
 ---
 

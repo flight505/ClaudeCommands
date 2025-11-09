@@ -1,5 +1,4 @@
----
-description: Create a new custom Skill with proper structure and best practices
+description: Create reusable command or Skill scaffolds tailored to your project's recurring tasks.
 argument-hint: <description>
 allowed-tools: Filesystem
 ---

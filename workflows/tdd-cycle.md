@@ -1,6 +1,6 @@
----
+description: Orchestrate the full red-green-refactor cycle using the /tdd-red, /tdd-green, and /tdd-refactor tools.
+argument-hint: "<feature or capability to implement>"
 model: claude-opus-4-1-20250805
----
 
 Execute a comprehensive Test-Driven Development (TDD) workflow with strict red-green-refactor discipline:
 

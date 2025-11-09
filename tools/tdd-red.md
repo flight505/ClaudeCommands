@@ -1,6 +1,6 @@
----
+description: Generate failing tests that define desired behavior before implementation begins.
+argument-hint: "<capability or component to test>"
 model: claude-sonnet-4-5-20250929
----
 
 Write comprehensive failing tests following TDD red phase principles:
 

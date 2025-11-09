@@ -1,6 +1,6 @@
----
+description: Load previously saved project context so new commands start with complete history.
+argument-hint: "<context identifier or goal>"
 model: claude-sonnet-4-5-20250929
----
 
 Restore saved project context for agent coordination:
 

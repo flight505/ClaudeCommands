@@ -1,6 +1,6 @@
----
+description: Improve implementation quality while keeping the test suite passing after /tdd-green.
+argument-hint: "<component to refactor>"
 model: claude-opus-4-1-20250805
----
 
 Refactor code with confidence using comprehensive test safety net:
 

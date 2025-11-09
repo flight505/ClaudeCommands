@@ -1,6 +1,6 @@
----
+description: Design and implement an end-to-end machine learning pipeline from data ingestion through deployment.
+argument-hint: "<pipeline goal or scope>"
 model: claude-opus-4-1-20250805
----
 
 # Machine Learning Pipeline
 

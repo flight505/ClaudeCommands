@@ -1,5 +1,4 @@
----
-description: Deep web research with optional seed sites
+description: Conduct structured research across diverse sources to inform planning and decision workflows.
 argument-hint: "<query>"
 ---
 

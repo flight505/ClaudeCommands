@@ -1,6 +1,6 @@
----
+description: Diagnose issues and route fixes to the most suitable troubleshooting specialists.
+argument-hint: "<issue summary>"
 model: claude-opus-4-1-20250805
----
 
 Intelligently fix the issue using automatic agent selection with explicit Task tool invocations:
 

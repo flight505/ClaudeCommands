@@ -1,6 +1,6 @@
----
+description: Design and implement automation (CI/CD, scripts, pipelines) that reduces manual work and improves delivery consistency.
+argument-hint: "<process or workflow to automate>"
 model: claude-opus-4-1-20250805
----
 
 # Workflow Automation
 

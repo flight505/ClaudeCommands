@@ -1,6 +1,6 @@
----
+description: Capture decisions, artifacts, and state for later retrieval with /context-restore.
+argument-hint: "<summary of information to save>"
 model: claude-sonnet-4-5-20250929
----
 
 Save current project context for future agent coordination:
 

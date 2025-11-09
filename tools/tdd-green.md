@@ -1,6 +1,6 @@
----
+description: Implement the minimal code needed to satisfy tests produced by /tdd-red.
+argument-hint: "<tests or capability to make pass>"
 model: claude-sonnet-4-5-20250929
----
 
 Implement minimal code to make failing tests pass in TDD green phase:
 

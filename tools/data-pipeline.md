@@ -1,6 +1,6 @@
----
+description: Design and build robust data ingestion and transformation pipelines ready for integration.
+argument-hint: "<data pipeline goal>"
 model: claude-sonnet-4-5-20250929
----
 
 # Data Pipeline Architecture
 

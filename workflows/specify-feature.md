@@ -1,11 +1,9 @@
----
-description: Create structured feature specification for ML/research projects using Specify framework
+description: Create a structured feature specification that feeds into planning and implementation workflows.
 argument-hint: "<feature description>"
----
 
 # Specify Feature
 
-Create a comprehensive feature specification for your ML, bioinformatics, or research project using the Specify framework.
+Create a comprehensive, implementation-ready feature specification using the Specify framework. The output becomes the starting point for `/feature-plan`, TDD workflows, and delivery teams.
 
 ## Usage
 
@@ -16,7 +14,7 @@ Create a comprehensive feature specification for your ML, bioinformatics, or res
 ## What This Does
 
 Generates a structured feature specification that captures:
-- **User scenarios** - How researchers/users interact with the feature
+- **User scenarios** - How people interact with the capability
 - **Functional requirements** - Testable, measurable requirements
 - **Data entities** - Models and data structures needed
 - **Acceptance criteria** - Clear pass/fail conditions
@@ -69,16 +67,15 @@ specs/[###-feature-name]/
 - Edge cases and error handling
 
 ### Functional Requirements
-- Testable capabilities (e.g., "System MUST accept FASTA files and return quality metrics")
-- Data requirements
-- Performance targets for ML models
-- Validation and error handling
+- Testable capabilities and system behaviors
+- Data requirements and transformations
+- Performance or quality targets
+- Validation, error handling, and observability needs
 
 ### Key Entities
-For data science/ML features:
 - Data models and schemas
-- Model inputs/outputs
-- Data transformations
+- Inputs, outputs, and transformations
+- Storage, transport, and lifecycle considerations
 
 ## Next Steps
 
@@ -112,12 +109,12 @@ This workflow uses your project's Specify framework:
 - **Think like a researcher**: What's the user journey from raw data to insights?
 - **Identify constraints**: Performance needs? Data privacy? Resource limits?
 
-## ML/Bioinformatics Specifics
+## Domain-Specific Considerations
 
-The specification captures domain-specific requirements:
-- **Model performance metrics** (accuracy, precision, recall, AUC)
+Adjust the specification to address:
+- **Success criteria** (metrics, SLAs, service levels)
 - **Data quality standards** (validation rules, filtering criteria)
-- **Computational constraints** (memory, time, scale)
-- **Reproducibility needs** (random seeds, versioning, data lineage)
-- **Integration with workflows** (input/output formats, API contracts)
+- **Operational constraints** (latency, throughput, capacity)
+- **Traceability needs** (auditing, lineage, reproducibility)
+- **Integration requirements** (APIs, file formats, contracts)
 
