@@ -1,4 +1,11 @@
+---
+description: Convert the approved implementation plan into actionable, ordered tasks before handing off to /implement.
+argument-hint: "<path to plan.md>"
+---
+
 # Tasks: [FEATURE NAME]
+
+> Generate this after `/plan` so all design artefacts exist. Replace placeholder tokens like `[FEATURE NAME]` and update file paths to match the actual codebase structure.
 
 **Input**: Design documents from `/specs/[###-feature-name]/`
 **Prerequisites**: plan.md (required), research.md, data-model.md, contracts/

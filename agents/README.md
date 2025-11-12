@@ -117,8 +117,8 @@ The Kiro method uses this structure:
 
 The Kiro method agents complement the Specify framework workflows:
 
-- **`/workflows:specify-feature`** + **kiro-spec-creator** for detailed specs
-- **`/workflows:feature-plan`** + **kiro-feature-designer** + **kiro-task-planner** for design & planning
+- **`/specify-feature`** + **kiro-spec-creator** for detailed specs
+- **`/feature-plan`** + **kiro-feature-designer** + **kiro-task-planner** for design & planning
 - **kiro-task-executor** for focused implementation
 
 ### Option 3: Direct Usage

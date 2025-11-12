@@ -1,4 +1,11 @@
+---
+description: Capture feature requirements, scenarios, and acceptance criteria before running /plan or downstream workflows.
+argument-hint: "<feature name or summary>"
+---
+
 # Feature Specification: [FEATURE NAME]
+
+> Replace placeholders like `[FEATURE NAME]` and `[###-feature-name]` with the actual identifiers for this feature. This template is the starting point of the Specify → Plan → Tasks sequence.
 
 **Feature Branch**: `[###-feature-name]`  
 **Created**: [DATE]  

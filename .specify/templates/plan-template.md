@@ -1,5 +1,11 @@
+---
+description: Translate a completed specification into research, design, and contract deliverables before running /tasks.
+argument-hint: "<path to spec.md>"
+---
 
 # Implementation Plan: [FEATURE]
+
+> Use this after the specification is approved. Replace placeholder text (e.g., `[FEATURE]`, `[###-feature-name]`) with real identifiers and keep the link back to `spec.md` accurate so downstream commands can trace context.
 
 **Branch**: `[###-feature-name]` | **Date**: [DATE] | **Spec**: [link]
 **Input**: Feature specification from `/specs/[###-feature-name]/spec.md`

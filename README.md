@@ -326,12 +326,12 @@ Your project includes two complementary approaches for structured development:
 
 ### Specify Framework (.specify) - Primary Path
 
-The Specify framework provides templates and project principles for consistent feature development. **This is the recommended path for ML/bioinformatics projects.**
+The Specify framework provides templates and project principles for consistent feature development. **This is the recommended path when you want structured, template-driven delivery.**
 
 ```
 .specify/
 ├── memory/
-│   └── constitution.md       # Project principles and guidelines (ML/bioinformatics focused)
+│   └── constitution.md       # Project principles and engineering guidelines
 ├── templates/
 │   ├── spec-template.md      # Feature specification template
 │   ├── plan-template.md      # Implementation plan template
@@ -350,6 +350,12 @@ The Specify framework provides templates and project principles for consistent f
 - Performance & Scalability
 - Documentation & Clarity
 - Simplicity & YAGNI
+
+**Command Sequence**:
+1. `/constitution` – review or update `.specify/memory/constitution.md` so project principles are current.
+2. `/specify-feature` – generate or refresh `specs/[###]/spec.md` using `spec-template.md`.
+3. `/feature-plan` – produce `plan.md`, `research.md`, `data-model.md`, `contracts/`, and `quickstart.md` from the approved spec.
+4. `/tasks` – convert the plan outputs into actionable steps with `tasks-template.md` (ready for `/implement` or manual execution).
 
 **Workflow**:
 1. **Specification** (`/specify-feature`) → Creates `spec.md`
@@ -491,7 +497,7 @@ See `agents/README.md` for detailed information.
 
 .specify/              # Specify framework (integrated)
 ├── memory/
-│   └── constitution.md # Project principles (ML/bioinformatics)
+│   └── constitution.md # Project principles and engineering guidelines
 ├── templates/         # Specification and planning templates
 │   ├── spec-template.md
 │   ├── plan-template.md
